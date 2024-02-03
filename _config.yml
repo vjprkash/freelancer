@@ -22,7 +22,7 @@ footer:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/vjprakash/
-  - title: fa-envelope
+  - title: <i class="fa-solid fa-envelope"></i>
     url: mailto:vijay.prakash@ucalgary.ca
 
 
