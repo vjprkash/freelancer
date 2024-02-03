@@ -1,10 +1,10 @@
 # Site settings
-title: VijayPrakash
+title: Vijay Prakash
 email: vijay.prakash@ucalgary.ca
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Business Analysis - Data Exploration & Visualization - Financial Analysis" \n "Power BI - JIRA - MS Visio"
+skills: "Business Analysis - Data Exploration - Visualization - Financial Analysis - Power BI - JIRA - MS Visio"
 meta_author: Prakash Vijay
 
 # Google webmaster tools
