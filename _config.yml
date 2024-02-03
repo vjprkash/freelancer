@@ -22,7 +22,8 @@ footer:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/vjprakash/
-  - title: envelope-open
+  - title: envelope
+    icon: envelope
     url: mailto:vijay.prakash@ucalgary.ca
 
 
