@@ -1,4 +1,4 @@
-# Site settings
+l# Site settings
 title: Vijay Prakash
 email: vijay.prakash@ucalgary.ca
 url: https://github.com/jeromelachaud/freelancer-theme
@@ -22,7 +22,7 @@ footer:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/vjprakash/
-  - title: Mail
+  - title: envelope
     url: "mailto:vijay.prakash@ucalgary.ca"}
 
 
