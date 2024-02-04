@@ -1,4 +1,4 @@
-\---
+---
 layout: default
 modal-id: 7
 img: safe.png
