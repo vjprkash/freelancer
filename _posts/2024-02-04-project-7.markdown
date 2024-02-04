@@ -1,11 +1,8 @@
 ---
 layout: default
 modal-id: 5
-date: 2014-07-14
 img: safe.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: We are going to do a hands-on project of Customer Churn Analysis for an eCommerce entity in the Telecom industry. The project is built as part of a learning course on Datacamp((https://app.datacamp.com/learn/courses/case-study-analyzing-customer-churn-in-excel). Before we proceed any further, let’s first understand what a Customer Churn Rate means. Investopedia defines it as “the rate of attrition at which customers stop doing business with an entity. It is most commonly expressed as the percentage of service subscribers who discontinue their subscriptions within a given time period”. It is an important metric that provides an insight into the company in terms of how competitive they are in the market; possibly why there is an attrition rate in customer base; and by how much. 
 ---
