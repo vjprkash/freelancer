@@ -126,7 +126,7 @@ We are going to use pivot tables for exploratory analysis. To calculate the chur
    <br><br>Once we have a concrete value of what our churn rate is, let's investigate the reason for this churn.
    <br><br><b>Investigating Churn Reasons:</b>
    <br><br>The dataset provides two fields called <i>"churn reasons"</i> and <i>"churn category"</i> which tell why the customer left the business with the entity and category doing in which this reason is classified. We start by identifying the distribution of across various reasons and identify the top contributors.<br><br>
-   <div><img src="./personal/images/1cca/3_investigatingChurnReasonsn.png" class="img-responsive"></div>
+   <div><img src="./personal/images/1cca/3_investigatingChurnReasons_1.png" class="img-responsive"></div>
    <br>In the next step, we move to identify the top categories which have the most outliers of the data. What I mean by that is seeing the distribution of data across categories and reasons within those categories. This provides us with insight to identify areas where the company needs to dig deeper to analyze further.<br><br>
    <div><img src="./personal/images/1cca/3_investigatingChurnReasons_2.png" class="img-responsive"></div>
 <br>Doing so, we identified that the highest churn is within the Competitors category, meaning more and more customers are opting not to do business with this company mainly because of reasons relating to the competitors in the market. Expanding this category, we found that since competitors are offering better products (devices) or are making a better offer (in terms of service of product) in comparison to our company. <br><br>
