@@ -18,6 +18,7 @@ category: Web Development
 .tg .tg-99ka{background-color:#D9E1F2;font-weight:bold;text-align:left;vertical-align:middle}
 .responsive {width:auto;height:auto}
 </style>
+
 <div>
    <p>We are going to do a hands-on project of Customer Churn Analysis for an eCommerce company in the Telecom industry. This project is built as part of the learning with <a href="https://app.datacamp.com/learn">Datacamp</a> using their dataset. Before we proceed any further, let's first understand what a Customer Churn Rate means. <a href="#:~:text=The%20churn%20rate%2C%20also%20known,within%20a%20given%20time%20period.">Investopedia</a> defines it as <em>"</em><em>the rate of attrition at which customers stop doing business with an entity. It is most commonly expressed as the percentage of service subscribers who discontinue their subscriptions within a given time period</em><em>"</em>. It is an important metric that provides an insight into the company in terms of how competitive they are in the market; possibly why there is an attrition rate in customer base; and by how much. </p>
    <b>Simply put:</b><br>
@@ -25,97 +26,98 @@ category: Web Development
    &nbsp;Churn Rate = Number of customer who stopped doing business with the entity / Total number of customers<br><br>
    <b>Dataset:</b><br><br>
    The customer dataset consisted of following fields:<br><br>
-
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-99ka">Sl</th>
-    <th class="tg-99ka">Field Name</th>
-    <th class="tg-99ka">Sl</th>
-    <th class="tg-99ka">Field Name</th>
-    <th class="tg-99ka">Sl</th>
-    <th class="tg-99ka">Field Name</th>
-    <th class="tg-99ka">Sl</th>
-    <th class="tg-99ka">Field Name</th>
-    <th class="tg-99ka">Sl</th>
-    <th class="tg-99ka">Field Name</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-cly1">1</td>
-    <td class="tg-cly1">Customer ID</td>
-    <td class="tg-cly1">7</td>
-    <td class="tg-cly1">Intl Mins</td>
-    <td class="tg-cly1">13</td>
-    <td class="tg-cly1">Unlimited Data Plan</td>
-    <td class="tg-cly1">19</td>
-    <td class="tg-cly1">Under 30</td>
-    <td class="tg-cly1">25</td>
-    <td class="tg-cly1">Payment Method</td>
-  </tr>
-  <tr>
-    <td class="tg-cly1">2</td>
-    <td class="tg-cly1">Churn Label</td>
-    <td class="tg-cly1">8</td>
-    <td class="tg-cly1">Intl Active</td>
-    <td class="tg-cly1">14</td>
-    <td class="tg-cly1">Extra Data Charges</td>
-    <td class="tg-cly1">20</td>
-    <td class="tg-cly1">Senior</td>
-    <td class="tg-cly1">26</td>
-    <td class="tg-cly1">Monthly Charge</td>
-  </tr>
-  <tr>
-    <td class="tg-cly1">3</td>
-    <td class="tg-cly1">Account Length (in&nbsp;&nbsp;&nbsp;months)</td>
-    <td class="tg-cly1">9</td>
-    <td class="tg-cly1">Intl Plan</td>
-    <td class="tg-cly1">15</td>
-    <td class="tg-cly1">State</td>
-    <td class="tg-cly1">21</td>
-    <td class="tg-cly1">Group</td>
-    <td class="tg-cly1">27</td>
-    <td class="tg-cly1">Total Charges</td>
-  </tr>
-  <tr>
-    <td class="tg-cly1">4</td>
-    <td class="tg-cly1">Local Calls</td>
-    <td class="tg-cly1">10</td>
-    <td class="tg-cly1">Extra International&nbsp;&nbsp;&nbsp;Charges</td>
-    <td class="tg-cly1">16</td>
-    <td class="tg-cly1">Phone Number</td>
-    <td class="tg-cly1">22</td>
-    <td class="tg-cly1">Number of Customers&nbsp;&nbsp;&nbsp;in Group</td>
-    <td class="tg-cly1">28</td>
-    <td class="tg-cly1">Churn Category</td>
-  </tr>
-  <tr>
-    <td class="tg-cly1">5</td>
-    <td class="tg-cly1">Local Mins</td>
-    <td class="tg-cly1">11</td>
-    <td class="tg-cly1">Customer Service&nbsp;&nbsp;&nbsp;Calls</td>
-    <td class="tg-cly1">17</td>
-    <td class="tg-cly1">Gender</td>
-    <td class="tg-cly1">23</td>
-    <td class="tg-cly1">Device Protection&nbsp;&nbsp;&nbsp;&amp; Online Backup</td>
-    <td class="tg-cly1">29</td>
-    <td class="tg-cly1">Churn Reason</td>
-  </tr>
-  <tr>
-    <td class="tg-cly1">6</td>
-    <td class="tg-cly1">Intl Calls</td>
-    <td class="tg-cly1">12</td>
-    <td class="tg-cly1">Avg Monthly GB&nbsp;&nbsp;&nbsp;Download</td>
-    <td class="tg-cly1">18</td>
-    <td class="tg-cly1">Age</td>
-    <td class="tg-cly1">24</td>
-    <td class="tg-cly1">Contract Type</td>
-    <td class="tg-cly1"></td>
-    <td class="tg-cly1"></td>
-  </tr>
-</tbody>
-</table>
+<div style="overflow-x:auto;">
+	<table class="tg">
+	<thead>
+	  <tr>
+		<th class="tg-99ka">Sl</th>
+		<th class="tg-99ka">Field Name</th>
+		<th class="tg-99ka">Sl</th>
+		<th class="tg-99ka">Field Name</th>
+		<th class="tg-99ka">Sl</th>
+		<th class="tg-99ka">Field Name</th>
+		<th class="tg-99ka">Sl</th>
+		<th class="tg-99ka">Field Name</th>
+		<th class="tg-99ka">Sl</th>
+		<th class="tg-99ka">Field Name</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+		<td class="tg-cly1">1</td>
+		<td class="tg-cly1">Customer ID</td>
+		<td class="tg-cly1">7</td>
+		<td class="tg-cly1">Intl Mins</td>
+		<td class="tg-cly1">13</td>
+		<td class="tg-cly1">Unlimited Data Plan</td>
+		<td class="tg-cly1">19</td>
+		<td class="tg-cly1">Under 30</td>
+		<td class="tg-cly1">25</td>
+		<td class="tg-cly1">Payment Method</td>
+	  </tr>
+	  <tr>
+		<td class="tg-cly1">2</td>
+		<td class="tg-cly1">Churn Label</td>
+		<td class="tg-cly1">8</td>
+		<td class="tg-cly1">Intl Active</td>
+		<td class="tg-cly1">14</td>
+		<td class="tg-cly1">Extra Data Charges</td>
+		<td class="tg-cly1">20</td>
+		<td class="tg-cly1">Senior</td>
+		<td class="tg-cly1">26</td>
+		<td class="tg-cly1">Monthly Charge</td>
+	  </tr>
+	  <tr>
+		<td class="tg-cly1">3</td>
+		<td class="tg-cly1">Account Length (in&nbsp;&nbsp;&nbsp;months)</td>
+		<td class="tg-cly1">9</td>
+		<td class="tg-cly1">Intl Plan</td>
+		<td class="tg-cly1">15</td>
+		<td class="tg-cly1">State</td>
+		<td class="tg-cly1">21</td>
+		<td class="tg-cly1">Group</td>
+		<td class="tg-cly1">27</td>
+		<td class="tg-cly1">Total Charges</td>
+	  </tr>
+	  <tr>
+		<td class="tg-cly1">4</td>
+		<td class="tg-cly1">Local Calls</td>
+		<td class="tg-cly1">10</td>
+		<td class="tg-cly1">Extra International&nbsp;&nbsp;&nbsp;Charges</td>
+		<td class="tg-cly1">16</td>
+		<td class="tg-cly1">Phone Number</td>
+		<td class="tg-cly1">22</td>
+		<td class="tg-cly1">Number of Customers&nbsp;&nbsp;&nbsp;in Group</td>
+		<td class="tg-cly1">28</td>
+		<td class="tg-cly1">Churn Category</td>
+	  </tr>
+	  <tr>
+		<td class="tg-cly1">5</td>
+		<td class="tg-cly1">Local Mins</td>
+		<td class="tg-cly1">11</td>
+		<td class="tg-cly1">Customer Service&nbsp;&nbsp;&nbsp;Calls</td>
+		<td class="tg-cly1">17</td>
+		<td class="tg-cly1">Gender</td>
+		<td class="tg-cly1">23</td>
+		<td class="tg-cly1">Device Protection&nbsp;&nbsp;&nbsp;&amp; Online Backup</td>
+		<td class="tg-cly1">29</td>
+		<td class="tg-cly1">Churn Reason</td>
+	  </tr>
+	  <tr>
+		<td class="tg-cly1">6</td>
+		<td class="tg-cly1">Intl Calls</td>
+		<td class="tg-cly1">12</td>
+		<td class="tg-cly1">Avg Monthly GB&nbsp;&nbsp;&nbsp;Download</td>
+		<td class="tg-cly1">18</td>
+		<td class="tg-cly1">Age</td>
+		<td class="tg-cly1">24</td>
+		<td class="tg-cly1">Contract Type</td>
+		<td class="tg-cly1"></td>
+		<td class="tg-cly1"></td>
+	  </tr>
+	</tbody>
+	</table>
+</div>
 <br>
 
 A detailed meaning of each field could be found at <a href="https://assets.datacamp.com/production/repositories/6386/datasets/0d84b751e28911f4a2c51b1a38c0100a55d8037e/Metadata%20Sheet%20-%20Customer%20Churn.pdf">here</a>.<br><br>
