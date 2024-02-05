@@ -45,6 +45,7 @@ hr.star-primary {
     border-top: solid 5px;
     text-align: center;
     overflow: visible;
+    font-size: xx-small;
 }
 
 hr.star-light:after,
@@ -87,8 +88,8 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 125px;
+    padding-bottom: 15px;
 }
 
 header img {
@@ -105,7 +106,7 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
+    font-size: larger;
     font-weight: 300;
 }
 
