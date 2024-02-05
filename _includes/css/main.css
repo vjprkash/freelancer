@@ -422,6 +422,8 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .portfolio-modal .modal-content h2 {
