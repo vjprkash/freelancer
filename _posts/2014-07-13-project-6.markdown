@@ -1,12 +1,9 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-15
 img: personal/images/1cca/7_dashboard.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+category: MS Excel
 ---
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;width:auto;height:auto;}
