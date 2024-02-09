@@ -8,4 +8,4 @@ description: We are going to do a hands-on project of Customer Churn Analysis fo
 ---
 
 
-<iframe title="Project_5" width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiZmI1MzZiNTAtYWVmOC00NTM1LWFhNjQtNzQwNGUwMjkzZGQwIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="Project_5" width="800" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiZmI1MzZiNTAtYWVmOC00NTM1LWFhNjQtNzQwNGUwMjkzZGQwIiwidCI6Ijg0N2I0NjNlLWZmOTgtNGMyYy05NzRhLWZjMDUwZDIxZjNiNSJ9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
