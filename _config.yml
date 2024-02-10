@@ -21,10 +21,10 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
  # - title: linkedin
-  #  url: https://www.linkedin.com/in/vjprakash/
+  #  url: put linkedin here
 #  - title: envelope
   #  icon: envelope
- #   url: mailto:vijay.prakash@ucalgary.ca
+ #   url: mailto:put email here
 
 # Credits content
 credits: 'Credit: Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
